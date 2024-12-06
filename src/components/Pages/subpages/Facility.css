@@ -1,0 +1,28 @@
+.animated-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    animation: autoSlide 12s infinite; /* Automatic animation effect */
+  }
+  
+  .animated-image {
+    transition: transform 0.5s ease; /* Smooth hover zoom */
+  }
+  
+  .group:hover .animated-image {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
+  
+  .animated-item .absolute {
+    transition: opacity 0.3s ease; /* Smooth overlay fade */
+  }
+  
+  /* Keyframe animation for automatic transitions */
+  @keyframes autoSlide {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-5px); }
+    50% { transform: translateY(5px); }
+    75% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+  }
+  
