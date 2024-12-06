@@ -1,23 +1,16 @@
 import { useState, useEffect } from 'react';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import slider1 from '../../assets/slider1.jpg';
 import slider2 from '../../assets/slider2.jpg';
 import slider3 from '../../assets/slider3.jpg';
 import slider4 from '../../assets/slider4.jpg';
-import { Link } from 'react-router-dom';
 
-import { LuGraduationCap } from "react-icons/lu";
-import { BsBuildings } from "react-icons/bs";
-import Aboutinsi from '../Pages/subpages/aboutinsi';
-import Newsevent from './subpages/Newsevent';
-import Facility from './Facility';
-import StudentSpeak from './subpages/StudentSpeak';
 import OurProgress from './subpages/OurProgress';
 import CourseHome from '../CourseHome';
 import UpcomingEvents from '../UpcomingEvents';
 import Testimonials from '../Testimonials';
 import GalleryCarousel from '../GalleryCarousel';
 import HomeCarousel from '../HomeCarousel';
+import AboutInsi from './subpages/Aboutinsi';
 
 
 
@@ -121,7 +114,7 @@ const Home = () => {
       </div> */}
      <HomeCarousel/>
       <div>
-        <Aboutinsi />
+        <AboutInsi />
         <CourseHome />
         {/* <Newsevent /> */}
         {/* <Facility /> */}
