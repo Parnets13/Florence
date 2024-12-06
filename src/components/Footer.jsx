@@ -1,26 +1,7 @@
-import { FaGooglePlus, FaPhoneSquareAlt } from "react-icons/fa";
-import { FaSquareFacebook } from "react-icons/fa6";
-import { FaXTwitter } from "react-icons/fa6";
-import { TiSocialGooglePlus } from "react-icons/ti";
-import { BsLinkedin } from "react-icons/bs";
-import { MdOutlineEmail } from "react-icons/md";
+import { FaGooglePlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { IoMdHome } from "react-icons/io";
-import { CiSquareInfo } from "react-icons/ci";
-import { AiOutlineAim } from "react-icons/ai";
-import { FaMessage } from "react-icons/fa6";
-import { FcGraduationCap } from "react-icons/fc";
-import { FaBuilding } from "react-icons/fa";
-import { MdContactPage } from "react-icons/md";
-import { FaWpforms } from "react-icons/fa6";
-import { FaDownload } from "react-icons/fa6";
-import Logo from '../assets/admition.jpg';
-import Logo1 from '../assets/logo.png';
 import logo from './../assets/logonew.png';
-// import banner from './../assets/world.png';
-// import banner from './../assets/footer-bg.png';
-import banner from './../assets/footer-2.png';
-import MenuAnimation from "./animata/MenuTransition";
+
 import { Facebook, Instagram, MoveRight, Twitter } from "lucide-react";
 
 const Footer = () => {
