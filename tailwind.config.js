@@ -1,18 +1,21 @@
+import tailwindcssAnimate from "tailwindcss-animate";
+import flowbitePlugin from "flowbite/plugin";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ["class"],
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}" ,  "./node_modules/flowbite/**/*.js"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", "./node_modules/flowbite/**/*.js"],
   theme: {
     extend: {
       keyframes: {
         fadeIn: {
-        from: { opacity: "0" },
-        to: { opacity: "1" },
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
       },
-    },
-    animation: {
-      fadeIn: "fadeIn 0.5s ease-in",
-    },
+      animation: {
+        fadeIn: "fadeIn 0.5s ease-in",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -62,5 +65,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), require("flowbite/plugin")],
+  plugins: [tailwindcssAnimate, flowbitePlugin],
 };
